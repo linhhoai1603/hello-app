@@ -4,7 +4,7 @@ const server = http.createServer((req, res) => {
   if (req.url === '/api/hello') {
     res.end(JSON.stringify({ message: "Hello từ HUYNH LINH HOAI!", status: "Success" }));
   } else {
-    res.end(JSON.stringify({ message: "Welcome to Jenkins CI/CD", version: "1.0" }));
+    res.end(JSON.stringify({ message: "Welcome to my website!!!", version: "1.0" }));
   }
 });
 server.listen(3000, '0.0.0.0', () => {
